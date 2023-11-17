@@ -1,0 +1,99 @@
+.Navigation{
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Button{
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.logo{
+  height: fit-content;
+  width: 100px;
+}
+.Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px; /* Adjust the padding as needed */
+  margin-bottom: 20px; /* Add margin at the bottom if desired */
+}
+
+  .Nav {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  /* BookCard.css */
+.book-card {
+  width: 70rem;
+  margin: 50px;
+  padding: 20px;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr; /* Adjust the column widths as needed */
+  gap: 10px; /* Adjust the gap between columns */
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.image {
+  grid-column: 1;
+}
+
+.details {
+  grid-column: 2;
+}
+
+.button {
+  grid-column: 3;
+  display: flex;
+  align-items: flex-end;
+}
+.buttonRenter {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.update-button,
+.delete-button {
+  border-radius: 5px;
+  width: 100%;
+}
+.book-image {
+  height: 350px;
+  object-fit: contain;
+}
+
+.rent-button {
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.title {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: purple;
+}
+
+.price {
+  font-weight: bold;
+}

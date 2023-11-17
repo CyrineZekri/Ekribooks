@@ -1,0 +1,167 @@
+.Navigation{
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Button{
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.logo{
+  height: fit-content;
+  width: 100px;
+}
+.Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px; 
+  margin-bottom: 20px; 
+}
+
+  .Nav {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  /* BookCard.css */
+.book-card {
+  width: 70rem;
+  margin: 50px;
+  padding: 20px;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr; 
+  gap: 10px; 
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.image {
+  grid-column: 1;
+}
+
+.details {
+  grid-column: 2;
+}
+
+.button {
+  grid-column: 3;
+  display: flex;
+  align-items: flex-end;
+}
+.buttonRenter {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.update-button,
+.delete-button {
+  border-radius: 5px;
+  width: 100%;
+}
+.book-image {
+  height: 350px;
+  object-fit: contain;
+}
+
+.rent-button {
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.title {
+  font-size: 1.2em; 
+  font-weight: bold;
+  color: purple;
+}
+
+.price {
+  font-weight: bold;
+}
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+
+
+.ContenuPopup {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.Titres {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 18px;
+}
+
+.Titres label {
+  margin-bottom: 8px;
+}
+
+.entries {
+  display: grid;
+  gap: 2px;
+}
+
+.entries input,
+.entries textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.rounded-modal .modal-content {
+    border-radius: 20px; 
+}
+.form-control {
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
+  padding: 10px 15px; 
+  border: 1px solid #ddd; 
+}
+
+.form-control[type="file"] {
+  border: none;
+  box-shadow: none;
+}
+
+
+.rounded-modal .modal-content {
+  border-radius: 20px; 
+  padding: 20px; 
+}

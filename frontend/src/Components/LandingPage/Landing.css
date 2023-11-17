@@ -1,0 +1,163 @@
+/* PartOne.css */
+
+.PartOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image {
+  background-size: cover;
+  height: 600px;
+  width: 100% ;
+  position: relative;
+}
+
+.text-container {
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  background: linear-gradient(to right, rgba(11, 10, 10, 0.7) 0%, rgba(11, 10, 10, 0) 100%);
+}
+
+.text-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+.about-section{
+  padding: 50px;
+  background-color: rgba(255, 235, 204,0.8)
+}
+
+.circumstance {
+  padding: 50px;
+  background-color: rgba(255, 235, 204,0.4)
+}
+
+.hey {
+  padding: 50px;
+  background-color: rgba(255, 235, 204,0.2)
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.column {
+  flex: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  flex: 2;
+  width: 20%; /* Adjust the width to your preference */
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+/* Adjust the following styles for the carousel and indicators */
+.carousel-indicators li {
+  background-color: #1f1d1d;
+  border-color: #0b0a0a;
+  width: 40px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  padding: 100px 300px 0 300px;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #0b0a0a;
+}
+.PartOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  padding-bottom: 40px;
+}
+
+.Abir{
+  width: 350px;
+  border-radius: 10px;
+}
+
+.background-image {
+  background-size: cover;
+  height: 600px;
+  width: 100% ;
+  position: relative;
+}
+
+.text-container {
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  background: linear-gradient(to right, rgba(11, 10, 10, 0.7) 0%, rgba(11, 10, 10, 0) 100%);
+}
+
+.text-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hey {
+  padding: 50px;
+  background-color: rgba(255, 235, 204,0.2)
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.column {
+  flex: 1;
+}
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  width: 20%;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}

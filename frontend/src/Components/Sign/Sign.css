@@ -1,0 +1,105 @@
+/*Sign in */
+p, div {
+    font-family: Lato;
+  }
+    
+  .wrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+  background-size: cover; /* This will cover the entire area, even if the image needs to be stretched */
+  background-position: center; /* This will center the background image */
+
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    max-width: 80%;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: #fefefe;
+  }
+  
+  .form-wrapper > h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 0.25em;
+    color: #222;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }  
+  
+  label {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-weight: lighter;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #bbb;
+  }
+  
+
+  .form .btn {
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: black;
+    border-radius: 4px;
+    background-color: #593196;
+    color: #fefefe;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 235, 205, 0.4);
+    border: #222;
+    color: black;
+  }
+  .btn::selection{
+    background-color: rgba(255, 235, 205, 0.4);
+    color: black;
+  }
+
+  .username,
+  .email,
+  .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   
+  .submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .radio-space {
+    margin-right: 10px; /* Adjust the space as needed */
+  }
