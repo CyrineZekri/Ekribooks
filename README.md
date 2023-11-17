@@ -1,5 +1,5 @@
 
-![Logo](logoreadme.png)
+![Logo](./logoreadme.png)
 
 
 # Ekri Book
