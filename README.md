@@ -33,6 +33,6 @@ They are what makes the open source community such an amazing place to learn, in
 
 ## Authors
 
-Made with ❤️ by: 
-- [@CyineZekri](https://github.com/CyrineZekri)
+Made with ❤️ by:   
+- [@CyineZekri](https://github.com/CyrineZekri);
 
